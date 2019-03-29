@@ -2,10 +2,11 @@
 0. cd sails-test && npm install
 1. sails lift 或者 nodeman app.js
 
-## 从0-1开始sails
 [参考文档](https://sailsjs.com/documentation/concepts/actions-and-controllers)
 [1-2视频](https://www.youtube.com/watch?v=AmjiDC_JUt4)
 [3-4视频](https://www.youtube.com/watch?v=qAQWBfnO6n0)
+
+## sails
 1. [入门地址](https://sailsjs.com/get-started)
 
 ```
