@@ -71,14 +71,14 @@ sails genenrate api hello
     
     * config中的datastores.js里面配置mysql的用户名/密码/IP/端口号/数据库
     
-        ```
-        module.exports.datastores = {
-          default: {
-            adapter: 'sails-mysql',
-            url: 'mysql://root:password@localhost:3306/hello',
-          },
-        };
-        ```
+      ```
+      module.exports.datastores = {
+        default: {
+          adapter: 'sails-mysql',
+          url: 'mysql://root:password@localhost:3306/hello',
+        },
+      };
+      ```
 4. 至此，你可以重启项目，调用你的接口，数据库里面就能看到了
 
 ps： 你可以全局安装nodeman, nodeman app.js 能帮你监控app.js是否改动，改动则更新配置
